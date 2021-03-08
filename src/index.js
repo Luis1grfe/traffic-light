@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TrafficLigth from './components/traffic';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <TrafficLigth />
   </React.StrictMode>,
   document.getElementById('root')
 );
